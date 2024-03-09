@@ -1,0 +1,62 @@
+.main-content {
+    display: grid;
+    place-items: center;
+}
+.main-content .TaskList {
+    margin-bottom: 5px;
+}
+.TaskList, .form {
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 300px 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    padding: 5px;
+}
+.TaskList {
+    border-radius: 5px;
+    
+    background: rgb(254, 253, 253);
+ 
+}
+body {
+    background: rgb(243, 241, 238);
+}
+.input-task {
+    padding-left: 10px;
+    border-radius: 20px;
+    border: solid rgb(135, 224, 162) 1px;
+    font-size: 14px;
+    width: 300px;
+    height: 30px;
+    outline: none;
+}
+.text-container, .btn-container {
+    align-items: center;
+}
+.text {
+    padding-left: 10px;
+    font-size: 16px;
+}
+.btn-container {
+    display: grid;
+    place-items: center;
+}
+.Add-btn {
+    border: none;
+    background:  rgb(66, 134, 85);
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    height: 30px;
+    width: 60px;
+}
+.delete-btn {
+    border: none;
+    background: rgb(190, 33, 33);
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    height: 30px;
+    width: 60px;
+}
